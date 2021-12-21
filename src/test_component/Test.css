@@ -1,0 +1,12 @@
+
+
+
+.information{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+
+.information-complete{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
