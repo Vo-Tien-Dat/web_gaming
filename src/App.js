@@ -17,7 +17,8 @@ class App extends Component{
     }
     onItemClick(title){
       console.log(title);
-      return (event)=>{
+      return ()=>{
+        
         const isComplete = title.isComplete;
         const {information} = this.state;
         const index = information.indexOf(title);
